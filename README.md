@@ -1,27 +1,26 @@
-📦 E-Commerce Sales & Delivery Analysis (Pandas)
-Description
+# 📦 E-Commerce Sales & Delivery Analysis (Pandas)
 
-A data analysis project using Pandas to analyze e-commerce orders, revenue, customer behavior, and delivery performance.
+## Description
 
-Features
+A data analysis project built using **Pandas** to analyze e-commerce sales, customer behavior, revenue trends, and delivery performance using real-world–style datasets.
 
-Revenue & discount calculation
+## Features
 
-Category-wise and month-wise sales analysis
+* Gross, discount, and net revenue calculation
+* Category-wise and month-wise sales analysis
+* Identification of repeat and top-spending customers
+* Premium vs non-premium customer revenue insights
+* Delivery delay and payment mode risk analysis
+* Automated generation of multiple analytical CSV reports
 
-Repeat and top customer identification
+## Tech Stack
 
-Premium vs non-premium customer insights
+* Python
+* Pandas
 
-Delivery delay and payment risk analysis
+## Project Structure
 
-Multiple CSV reports generation
-
-Tech Stack
-
-Python
-
-PandasProject Structure
+```
 ├── customers.csv
 ├── orders.csv
 ├── analysis.py
@@ -34,13 +33,14 @@ PandasProject Structure
 ├── city_delay.csv
 ├── payment_risk.csv
 └── README.md
+```
 
-AuthorDhwanit
+## Author
 
-Future Scope
+Dhwanit
 
-Profit & margin analysis
+## Future Scope
 
-Customer Lifetime Value (CLV)
-
-Visual dashboards using Matplotlib / Power BI
+* Profit and margin analysis
+* Customer Lifetime Value (CLV) calculation
+* Interactive dashboards using Matplotlib / Power BI
